@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  @import url(https://fonts.googleapis.com/css?family=Pacifico|Roboto:400,500);
+  @import url(https://fonts.googleapis.com/css?family=Roboto|Roboto:400,500);
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #fff;
+    color: #000;
+    font-size: 15px;
+    text-align: justify;
+  }
+
+  
+  header {
+    width: 100%;
+    height: 600px;
+    background: #03a3c7;
+
+    background: -webkit-linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(317, 45%, 52%, 0.664)), url(img/sandwich_de_queso1.jpg);
+    background: linear-gradient(to right, hsla(56, 100%, 51%, 0.459), hsla(56, 100%, 51%, 0.459)), url(img/sandwich_de_queso1.jpg);
+    background-size: cover;
+    font-size: 1.5em;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+    background-color: #000;
+    float: left;
+    padding-left: 2%;
+    height: 15%;
+    text-align: center;
+    position: fixed;
+    height: 9%;
+
+}
+
+li{
+    display: inline;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+li:hover{
+    border-bottom: white solid 2px;
+}
+h1{
+    text-align: center;
+}
+section{
+    font-family: 'Pacifico',Arial, Helvetica, sans-serif;
+    position: relative;
+
+}
+.cuerpo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-top: 40px;
+    z-index: -1;
+    margin: 10px;
+  }
+  
+  .cuerpo img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  div{
+      border: solid black;
+      box-shadow:5px 10px #888888 ;
+  }
+  .cuerpo h3 {
+    margin-bottom: 5px;
+  }
+  #ab img{
+    position: absolute;
+    width: 80%;
+    z-index: -1;
+ 
+}
+#ab{
+    position: relative;
+    border: rgb(241, 241, 88) dotted;
+}
+#ab p{
+    margin-top: 250px;
+}
+#diabetes{
+    border-radius: 4%;
+    padding: 10px;
+}
+#diabetes h3{
+    text-align: center;
+}
+#due{
+    border-color: rgb(157, 157, 240);
+    border-style: ridge;
+    text-align: justify;
+    padding: 2px;
+}
+#due h3{
+    padding: 2px;
+    margin-top: 2px;
+    text-align: center;
+}
+#dos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px; 
+    width: 500px;
+    padding: 6px;
+    
+}
+#due #dos img:hover{
+ opacity: 50%;
+}
+
+
+  /* Footer */
+  footer{
+    width:100%;
+    background:#202020;
+    color:white;
+    display: ;
+   
+  }
