@@ -132,6 +132,6 @@ section{
     width:100%;
     background:#202020;
     color:white;
-    display: ;
+    z-index: 1;
    
   }
